@@ -568,9 +568,7 @@ def Login_Dulu():
 
 		lnux=(
 			"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
-      "Mozilla/5.0 (Linux; Android {a}.{b}; Pixel {b}) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36"
-			"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
-
+      
 			
 
 		head = {
@@ -578,7 +576,6 @@ def Login_Dulu():
 			"User-Agent": lnux
 
 			}
-
 		link = ses.get(
 
 			"https://web.facebook.com/adsmanager?_rdc=1&_rdr",
